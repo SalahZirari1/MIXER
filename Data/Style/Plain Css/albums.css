@@ -1,0 +1,150 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /*   background-color: $bgColor;
+   */
+  display: grid;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-areas: "zone zone zone zone zone zone" "zone zone zone zone zone zone";
+  margin: 0;
+  padding: 0;
+}
+
+.album-title-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.album_links {
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.album_links:hover {
+  color: #ffa701;
+  border-bottom: 0.1em solid #ffa701;
+}
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  margin-left: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 13px 13px;
+  border: 2px solid #ffa701;
+  cursor: pointer;
+}
+
+.box:hover .album-title {
+  display: block;
+}
+
+#img-section {
+  background-image: url("../../img/bg.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+#content-section {
+  margin-top: 400px;
+  position: relative;
+  grid-area: zone;
+  width: 100%;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 60px;
+  grid-template-columns: repeat(4, 450px);
+}
+
+.album-title {
+  position: absolute;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: none;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+/* bottom */
+.clip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* boxes */
+#box1 {
+  background-image: url(../../img/ae.jpg);
+}
+
+#box2 {
+  background-image: url(../../img/animals.jpg);
+}
+
+#box3 {
+  background-image: url(../../img/d.jpeg);
+}
+
+#box4 {
+  background-image: url(../../img/blond.jpg);
+}
+
+#box5 {
+  background-image: url(../../img/beatles.jpg);
+}
+
+#box6 {
+  background-image: url(../../img/damn.jpeg);
+}
+
+#box7 {
+  background-image: url(../../img/gkmc.jpg);
+}
+
+#box8 {
+  background-image: url(../../img/jackboys.jpg);
+}
+
+#box9 {
+  background-image: url(../../img/am.jpg);
+}
+
+#box10 {
+  background-image: url(../../img/court.jpg);
+}
+
+#box11 {
+  background-image: url(../../img/10k.jpg);
+}
+
+#box12 {
+  background-image: url(../../img/nass.jpg);
+}
+
+#box13 {
+  background-image: url(../../img/arabi.jpg);
+}
+
+#box14 {
+  background-image: url(../../img/444.png);
+}
+
+#box15 {
+  background-image: url(../../img/dark\ fantasy.jpg);
+}
+
+#box16 {
+  background-image: url(../../img/toto.jpg);
+}/*# sourceMappingURL=albums.css.map */

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(69, 69, 69);
+}
+.container video{
+    /* uncomment to make it full screen */
+    /* min-width: 100%;
+    min-height: 100%;
+     */
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    z-index: -1;
+    color: #1a7fc3;
+}
+
+.head{
+    background-color: rgb(0, 0, 0);
+    padding-left: 44%; ;
+}

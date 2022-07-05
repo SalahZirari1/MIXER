@@ -5,6 +5,10 @@
 }
 
 #container {
+  background-color: #ffffff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-rows: 90px 1fr;
 }
@@ -12,22 +16,20 @@
 #head {
   background-color: rgb(0, 0, 0);
   z-index: 1;
-  position: fixed;
   width: 100%;
-  height: 90px;
   grid-row: 1/2;
   box-shadow: rgba(255, 167, 1, 0.4) 0px 5px, rgba(255, 167, 1, 0.3) 0px 10px, rgba(255, 167, 1, 0.2) 0px 15px, rgba(255, 167, 1, 0.1) 0px 20px, rgba(255, 167, 1, 0.05) 0px 25px;
 }
 
 #iframe-div {
+  background-color: #f5f5f5;
   grid-row: 2/3;
+  overflow: hidden;
 }
 
-#iframeAlbums {
-  position: absolute;
+iframe {
+  position: relative;
   width: 100%;
-  overflow: hidden;
-  border: none;
   height: 100%;
 }
 

@@ -30,10 +30,9 @@ body {
 section>h1 {
   position: relative;
   left: 2.8%;
-  
+  margin: 170px 0px 0px 0px;
   font-size: 200px;
   letter-spacing: 80px;
-  margin: auto;
 }
 
 .album-title-text {
@@ -78,15 +77,10 @@ section>h1 {
   display: block;
 }
 
-#img-section {
-  /*   background-image: url("../../img/bg.jpg");
- */
-  width: 100%;
-}
+
 
 #content-section {
 
-  margin-top: 400px;
   position: relative;
   width: 100%;
   display: flex;
